@@ -272,7 +272,12 @@
     }
     .trust-symbol svg { width: 22px; height: 22px; }
     .trust-item strong { display: block; color: var(--navy); font-size: .91rem; }
-    .trust-item span { display: block; margin-top: 3px; color: var(--muted); font-size: .76rem; }
+    .trust-item > div > span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: .76rem;
+    }
 
     /* Intro */
     .intro-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 65px; }
